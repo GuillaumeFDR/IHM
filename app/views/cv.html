@@ -1,0 +1,24 @@
+<div>
+  <div class="jumbotron">
+    <h1>Informations générales</h1>
+    <p>Age : {{cv.personal.age}} ans</p>
+    <p>{{cv.personal.sexe}}</p>
+    <p>Né le {{cv.personal.birthDate}} {{cv.personal.birthMonth}} {{cv.personal.birthYear}}</p>
+    <p>Permis {{cv.personal.permis}}</p>
+    <p>Adresse : {{cv.personal.adress}}</p>
+  </div>
+  <div class="jumbotron">
+  <h1>Logiciels utilisés / Langages connus</h1>
+    <p ng-repeat="a in cv.skills">
+      {{a.title}}, niveau {{a.level}}
+    </p>
+  </div>
+  <div class="jumbotron">
+    <h1>Projets réalisés</h1>
+    <div ng-repeat="tmp in cv.projects">
+      <h2>{{tmp.title}}</h2>
+      <p>{{tmp.synopsis}}</p>
+    </div>
+    </div>
+  </div>
+</div>

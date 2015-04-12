@@ -1,0 +1,57 @@
+{
+  "personal" : {
+    "firstname" : "Guillaume",
+    "lastname" : "FILIOL DE RAIMOND-MICHEL",
+    "age" :"20",
+    "sexe": "Homme",
+    "birthYear" : "1995",
+    "birthMonth" : "Janvier",
+    "birthDate" : "18",
+    "mail" : "guillaume_fdr@orange.fr",
+    "permis" : "B",
+    "adress" : "46 Avenue Mont Joli, Résidence le Clos Mont Joli",
+    "phone" : "06 27 91 69 40"
+  },
+
+  "skills" : [
+    { "title" : "Word",
+      "level" : "excellent"},
+    { "title" : "Excel",
+      "level" : "bon"
+
+    },
+    {
+      "title" : "Photoshop",
+      "level" : "débutant"
+    },
+    {
+      "title" : "PowerPoint",
+      "level" : "excellent"
+    },
+    {
+      "title" : "Java",
+      "level" : "bon"
+    },
+    {
+      "title" : "JavaScript",
+      "level" : "moyen"
+    },{
+      "title" : "PHP",
+      "level" : "moyen"
+    },{
+      "title" : "Css",
+      "level" : "moyen"
+    }
+  ],
+  "projects" : [
+    {
+      "title" : "Nasca au pays des pâtisseries",
+      "synopsis" : "Projet DEVINT 2015"
+    },
+    {"title" : "Bataille navale",
+      "synopsis" : "Projet de Peip2"
+
+    }
+]
+
+}
